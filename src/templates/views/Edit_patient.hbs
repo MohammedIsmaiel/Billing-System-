@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Edit Patient</title>
+  </head>
+  <body>
+    <div class="edit-patient">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="navigation">
+                        <input class="mb-3 btn btn-primary" type="button" value="Home">
+                        <input class="btn btn-primary" type="button" value="Bill">
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="content">
+                        <div class=" mb-4 row justify-content-center">
+                            <h2 class="mb-3">Edit Patient data</h2>
+                        </div>
+                        <div class="mb-4 row text-center">
+                            <div class="col-8">
+                                <div class="form-group row" style="margin-top: 17px;">
+                                    <label for="patient-id" class="col-form-label col-6">Patient ID</label>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="patient-id">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <input class="mr-auto btn btn-primary align-items-center" type="button" value="Search">
+                            </div>
+                            
+                        </div>
+                        <!-- Edit All information of patient-->
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="name" class="text-center col-sm-5 col-form-label">Change Name</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="name">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="Gender" class="text-center col-sm-5 col-form-label">Gender</label>
+                                        <div class="col-sm-7">
+                                            <select class="form-control" name="gender" id="Gender">
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="city" class="text-center col-sm-5 col-form-label">Change City</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="city">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="address" class="text-center col-sm-5 col-form-label">Change Address</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="address">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="Country" class="text-center col-sm-5 col-form-label">Change Country</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="country">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="nationality" class="text-center col-sm-5 col-form-label">Change Nationality</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="nationality">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="normal-room" class="text-center col-sm-5 col-form-label">Add Normal Room Days</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="normal-room">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="intensive-care" class="text-center col-sm-5 col-form-label">Add Intensive Care Days</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="intensive-care">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label for="id" class="text-center col-sm-5 col-form-label">ID</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="id">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="analyis-price" class="text-center col-sm-5 col-form-label">Add Price of Analysis</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="analyis-price">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="operations-price" class="text-center col-sm-5 col-form-label">Add Operations Price</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="operations-price">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="examinations-price" class="text-center col-sm-5 col-form-label">Add Examination Price</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="examinations-price">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="medicines-price" class="text-center col-sm-5 col-form-label">Add Price of medicines</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="medicines-price">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="paid" class="text-center col-sm-5 col-form-label">Deposit 5000 L.E</label>
+                                        <div class="col-sm-2">
+                                          <input type="checkbox" class="" id="paid">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="insurance" class="text-center col-sm-5 col-form-label">Health Isurance</label>
+                                        <div class="col-sm-2">
+                                          <input type="checkbox" class="" id="insurance">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row" style="margin-top:35px;">
+                                        <label for="after-deposit" class="text-center col-sm-5 col-form-label">Add Amount After Deposit</label>
+                                        <div class="col-sm-7">
+                                          <input type="text" class="form-control" id="after-deposit">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <input class="ml-auto btn btn-primary" type="submit" value="Save Changes">
+                            </div>
+                        </form>
+                        <!-- Edit All information of patient-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

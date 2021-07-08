@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #e4e8ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/** Edit Patients data*/
+.form-control {
+    border-radius: 20px;
+}
+label {
+    color:rgb(4, 110, 124);
+}
+.navigation input {
+    display: block;
+    border-radius: 20px;
+    text-align: right;
+    padding: 7px 16px;
+    width: 140px;
+    background-color: #0298ca;
+
+}
+
+.navigation :last-child{width: 100px;}
+.content .btn {
+    background-color: #0298ca;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 16px;
+}
+
+
+/***********************************************************************************************************/
+/*Add New Patient*/
+.bill,.home {
+    background-color: #0298ca;
+    text-align: right;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px 10x;
+
+}
+.home {
+    width: 140px;
+}
+.add {
+    background-color: #0298ca;
+    border-radius: 20px;
+    padding: 5px 16x;
+    margin-right: 16px;
+}

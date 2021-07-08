@@ -1,0 +1,28 @@
+.home {
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro :first-child{
+    margin-bottom: 60px;
+}
+.intro :last-child,
+.intro :first-child{
+    background-color: snow;
+    border-radius: 60px;
+    display: block;
+    margin-bottom: 60px;
+    width: 500px;
+    padding: 20px 50px;
+    color: #0298ca;
+    font-size: 40px;
+    border: 1px solid #0298ca;
+    font-weight: bold;
+}

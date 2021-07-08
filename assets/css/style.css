@@ -1,0 +1,136 @@
+/*
+First color : e4e8ff
+Second color : 0298ca
+
+*/
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+}
+
+p {
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.half,
+.half .container>.row {
+    height: 100vh;
+    min-height: 700px;
+}
+
+@media (max-width: 991.98px) {
+    .half .bg {
+        height: 200px;
+    }
+}
+
+.half .contents {
+    background: #e4e8ff;
+}
+
+.half .contents{width: 40%;}
+.half .bg {
+    width: 60%;
+}
+
+@media (max-width: 1199.98px) {
+    .half .contents,
+    .half .bg {
+        width: 100%;
+    }
+}
+
+.half .contents .form-control
+ {
+    border: 1px solid #1665a2;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 54px;
+    background: #fff;
+    padding-right: 27px;
+    padding-left: 27px;
+}
+
+.half .contents .form-control:active,
+.half .contents .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.half .bg {
+    background-size: cover;
+    background-position: center;
+}
+
+.half a {
+    color: #888;
+    text-decoration: underline;
+}
+
+.half .btn {
+    height: 54px;
+    width: 210px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+}
+
+.half .forgot-pass {
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+
+.border {
+    border-radius: 30px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #1665a2;
+}
+
+.edit {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.margin-top {
+    margin-top: 50px;
+}
+a:hover {
+    color: royalblue;
+}
+
+#change {
+    font-weight: bolder;
+}
+
